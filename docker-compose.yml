@@ -1,0 +1,43 @@
+version: "3.7"
+
+services:
+  lmsa.gateway:
+    build: ./LMSA.Gateway/
+    ports:
+      - "8082:82"
+    environment:
+      - ASPNETCORE_URLS=http://+:82;
+
+  lmsa.projects:
+    build: ./LMSA.Projects/
+    ports:
+      - "8080:80"
+    environment:
+      - ConnectionString=Server=sqlserver;Database=LMSA.Projects;User=sa;Password=P@ssword;
+    depends_on:
+      - sqlserver
+
+  lmsa.tasks:
+    build: ./LMSA.Tasks/
+    ports:
+      - "8081:81"
+    environment:
+      - ConnectionString=Server=sqlserver;Database=LMSA.Tasks;User=sa;Password=P@ssword;
+      - ASPNETCORE_URLS=http://+:81;
+    depends_on:
+      - sqlserver
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04
+    environment:
+      - SA_PASSWORD=P@ssword
+      - ACCEPT_EULA=Y
+    ports:
+      - "5433:1433"
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    hostname: mq
+    ports:
+      - 5672:5672
+      - 15672:15672

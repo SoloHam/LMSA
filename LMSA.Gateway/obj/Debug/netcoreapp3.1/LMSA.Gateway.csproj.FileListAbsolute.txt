@@ -1,0 +1,5 @@
+C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Gateway\obj\Debug\netcoreapp3.1\LMSA.Gateway.csprojAssemblyReference.cache
+C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Gateway\obj\Debug\netcoreapp3.1\LMSA.Gateway.csproj.CoreCompileInputs.cache
+C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Gateway\obj\Debug\netcoreapp3.1\LMSA.Gateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Gateway\obj\Debug\netcoreapp3.1\LMSA.Gateway.AssemblyInfoInputs.cache
+C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Gateway\obj\Debug\netcoreapp3.1\LMSA.Gateway.AssemblyInfo.cs
