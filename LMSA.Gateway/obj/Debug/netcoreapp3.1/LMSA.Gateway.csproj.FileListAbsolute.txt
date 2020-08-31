@@ -1,5 +1,58 @@
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Gateway\obj\Debug\netcoreapp3.1\LMSA.Gateway.csprojAssemblyReference.cache
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Gateway\obj\Debug\netcoreapp3.1\LMSA.Gateway.csproj.CoreCompileInputs.cache
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Gateway\obj\Debug\netcoreapp3.1\LMSA.Gateway.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Gateway\obj\Debug\netcoreapp3.1\LMSA.Gateway.AssemblyInfoInputs.cache
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Gateway\obj\Debug\netcoreapp3.1\LMSA.Gateway.AssemblyInfo.cs
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.csprojAssemblyReference.cache
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.csproj.CoreCompileInputs.cache
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.AssemblyInfoInputs.cache
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.AssemblyInfo.cs
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/LMSA.Gateway.deps.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/LMSA.Gateway.runtimeconfig.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/LMSA.Gateway.runtimeconfig.dev.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/LMSA.Gateway.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/LMSA.Gateway.pdb
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Automatonymous.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/GreenPipes.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/MassTransit.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/MassTransit.AspNetCoreIntegration.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/MassTransit.ExtensionsDependencyInjectionIntegration.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/MassTransit.RabbitMqTransport.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/NewId.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/RabbitMQ.Client.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/System.Threading.Channels.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.csprojAssemblyReference.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.AssemblyInfoInputs.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.AssemblyInfo.cs
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.csproj.CoreCompileInputs.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.MvcApplicationPartsAssemblyInfo.cs
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.MvcApplicationPartsAssemblyInfo.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.RazorTargetAssemblyInfo.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.csproj.CopyComplete
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/staticwebassets/LMSA.Gateway.StaticWebAssets.Manifest.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/staticwebassets/LMSA.Gateway.StaticWebAssets.xml
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.pdb
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/obj/Debug/netcoreapp3.1/LMSA.Gateway.genruntimeconfig.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/dist/web.config
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/dist/appsettings.Development.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/dist/appsettings.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/dist/LMSA.Gateway.deps.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Gateway/bin/Debug/netcoreapp3.1/dist/LMSA.Gateway.runtimeconfig.json

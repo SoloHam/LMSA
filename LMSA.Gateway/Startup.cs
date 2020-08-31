@@ -26,9 +26,11 @@ namespace LMSA.Gateway
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddMassTransit();
-
-            services.AddMassTransitHostedService();
+            services.AddMassTransit(opts => {
+                opts.UsingRabbitMq((context, cfg) => {
+                    cfg.Host("localhost", "/", h => {});
+                });
+            });
 
             services.AddSwaggerGen();
         }

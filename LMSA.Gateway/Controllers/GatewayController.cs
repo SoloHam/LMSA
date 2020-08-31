@@ -7,11 +7,11 @@ namespace LMSA.Gateway
     [Route("/")]
     public class Gateway : Controller
     {
-        readonly IPublishEndpoint _publishEndpoint;
+        readonly IBus _bus;
 
-        public Gateway(IPublishEndpoint publishEndpoint)
+        public Gateway(IBus bus)
         {
-            _publishEndpoint = publishEndpoint;
+            _bus = bus;
         }
 
         [HttpGet]
@@ -20,12 +20,18 @@ namespace LMSA.Gateway
         [HttpPost]
         public async Task<IActionResult> Publish(string message)
         {
-            await _publishEndpoint.Publish<string>(new
-            {
-                Value = message
-            });
+            await _bus.Publish(new ValueEntered(message));
 
             return Ok();
+        }
+
+        public class ValueEntered{
+      public ValueEntered(string value)
+      {
+        Value = value;
+      }
+
+      public string Value { get; set; }
         }
     }
 }

@@ -1,61 +1,140 @@
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\obj\Debug\netcoreapp3.1\LMSA.Tasks.csprojAssemblyReference.cache
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\obj\Debug\netcoreapp3.1\LMSA.Tasks.csproj.CoreCompileInputs.cache
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\obj\Debug\netcoreapp3.1\LMSA.Tasks.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\obj\Debug\netcoreapp3.1\LMSA.Tasks.AssemblyInfoInputs.cache
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\obj\Debug\netcoreapp3.1\LMSA.Tasks.AssemblyInfo.cs
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\LMSA.Tasks.exe
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\LMSA.Tasks.deps.json
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\LMSA.Tasks.runtimeconfig.json
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\LMSA.Tasks.runtimeconfig.dev.json
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\LMSA.Tasks.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\LMSA.Tasks.pdb
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\obj\Debug\netcoreapp3.1\LMSA.Tasks.RazorTargetAssemblyInfo.cache
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\obj\Debug\netcoreapp3.1\LMSA.Tasks.csproj.CopyComplete
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\obj\Debug\netcoreapp3.1\staticwebassets\LMSA.Tasks.StaticWebAssets.Manifest.cache
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\obj\Debug\netcoreapp3.1\staticwebassets\LMSA.Tasks.StaticWebAssets.xml
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\obj\Debug\netcoreapp3.1\LMSA.Tasks.dll
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\obj\Debug\netcoreapp3.1\LMSA.Tasks.pdb
-C:\Users\monos\Documents\Projects\Repositories\.NET Core\LMSA\LMSA.Tasks\obj\Debug\netcoreapp3.1\LMSA.Tasks.genruntimeconfig.cache
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.csprojAssemblyReference.cache
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.csproj.CoreCompileInputs.cache
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.AssemblyInfoInputs.cache
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.AssemblyInfo.cs
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/LMSA.Tasks.exe
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/LMSA.Tasks.deps.json
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/LMSA.Tasks.runtimeconfig.json
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/LMSA.Tasks.runtimeconfig.dev.json
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/LMSA.Tasks.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/LMSA.Tasks.pdb
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.RazorTargetAssemblyInfo.cache
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.csproj.CopyComplete
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/staticwebassets/LMSA.Tasks.StaticWebAssets.Manifest.cache
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/staticwebassets/LMSA.Tasks.StaticWebAssets.xml
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.dll
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.pdb
+C:/Users/monos/Documents/Projects/Repositories/.NET Core/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.genruntimeconfig.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/LMSA.Tasks.deps.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/LMSA.Tasks.runtimeconfig.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/LMSA.Tasks.runtimeconfig.dev.json
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/LMSA.Tasks.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/LMSA.Tasks.pdb
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Automatonymous.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/GreenPipes.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/MassTransit.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/MassTransit.AspNetCoreIntegration.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/MassTransit.ExtensionsDependencyInjectionIntegration.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/MassTransit.RabbitMqTransport.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/NewId.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/RabbitMQ.Client.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/System.Threading.Channels.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.csprojAssemblyReference.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.AssemblyInfoInputs.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.AssemblyInfo.cs
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.csproj.CoreCompileInputs.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.MvcApplicationPartsAssemblyInfo.cs
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.MvcApplicationPartsAssemblyInfo.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.RazorTargetAssemblyInfo.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.csproj.CopyComplete
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/staticwebassets/LMSA.Tasks.StaticWebAssets.Manifest.cache
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/staticwebassets/LMSA.Tasks.StaticWebAssets.xml
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.dll
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.pdb
+/Users/dev/Desktop/Projects/.NET/LMSA/LMSA.Tasks/obj/Debug/netcoreapp3.1/LMSA.Tasks.genruntimeconfig.cache
