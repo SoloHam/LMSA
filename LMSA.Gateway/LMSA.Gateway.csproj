@@ -2,14 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MassTransit" Version="7.0.3" />
+    <PackageReference Include="MassTransit.Analyzers" Version="7.0.3" />
     <PackageReference Include="MassTransit.AspNetCore" Version="7.0.3" />
     <PackageReference Include="MassTransit.RabbitMQ" Version="7.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LMSA.Shared\LMSA.Shared.csproj" />
+  </ItemGroup>
 
 </Project>

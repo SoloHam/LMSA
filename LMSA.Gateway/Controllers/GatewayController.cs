@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using LMSA.Shared.Contracts;
 using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,15 +18,27 @@ namespace LMSA.Gateway
         [HttpGet]
         public async Task<IActionResult> Welcome() => Content("Hello there!!");
 
-        [HttpPost]
+        [HttpPost("{message}")]
         public async Task<IActionResult> Publish(string message)
         {
-            await _publishEndpoint.Publish<string>(new
+            await _publishEndpoint.Publish<ProjectSubmissionAccepted>(new
             {
-                Value = message
+                Id = 1,
+                Title = message,
+                Description = message
             });
 
-            return Ok();
+            return Ok("Yepeee");
+        }
+
+        public class ValueEntered
+        {
+            public ValueEntered(string value)
+            {
+                Value = value;
+            }
+
+            public string Value { get; set; }
         }
     }
 }

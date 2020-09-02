@@ -1,15 +1,22 @@
-version: "3.7"
+version: "3.8"
 
 services:
   lmsa.gateway:
-    build: ./LMSA.Gateway/
+    build:
+      context: ./
+      dockerfile: ./LMSA.Gateway/Dockerfile
     ports:
       - "8082:82"
     environment:
       - ASPNETCORE_URLS=http://+:82;
 
+    depends_on:
+      - rabbitmq
+
   lmsa.projects:
-    build: ./LMSA.Projects/
+    build: 
+      context: ./
+      dockerfile: ./LMSA.Projects/Dockerfile
     ports:
       - "8080:80"
     environment:
@@ -18,7 +25,9 @@ services:
       - sqlserver
 
   lmsa.tasks:
-    build: ./LMSA.Tasks/
+    build:
+      context: ./
+      dockerfile: ./LMSA.Tasks/Dockerfile
     ports:
       - "8081:81"
     environment:

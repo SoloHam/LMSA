@@ -2,8 +2,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using LMSA.Projects.DAL.Contexts;
 using LMSA.Projects.DAL.Models;
+using LMSA.Shared;
 using MassTransit;
 using Microsoft.AspNetCore.Mvc;
+using RabbitMQ.Client;
 
 namespace LMSA.Projects.Controllers
 {
@@ -11,13 +13,13 @@ namespace LMSA.Projects.Controllers
     public class ProjectsController : Controller
     {
         private readonly ProjectsDbContext _context;
-
+        private readonly RabbitMQManager rabbitMQ;
         readonly IPublishEndpoint _publishEndpoint;
 
-        public ProjectsController(ProjectsDbContext context, IPublishEndpoint publishEndpoint)
+        public ProjectsController(ProjectsDbContext context, RabbitMQManager rabbitMQ)
         {
             _context = context;
-            _publishEndpoint = publishEndpoint;
+            this.rabbitMQ = rabbitMQ;
         }
 
         [HttpGet]
@@ -40,10 +42,14 @@ namespace LMSA.Projects.Controllers
             await _context.Projects.AddAsync(project);
             await _context.SaveChangesAsync();
 
-            await _publishEndpoint.Publish<Project>(new
-            {
-                Value = project
-            });
+            //await _publishEndpoint.Publish<Project>(new
+            //{
+            //    Value = project
+            //});
+            var channel = rabbitMQ.GetChannel; 
+
+            byte[] messageBodyBytes = System.Text.Encoding.UTF8.GetBytes("Project Created!");
+            channel.BasicPublish("lmsa", "", null, messageBodyBytes);
 
             return Created(Url.ActionLink(nameof(OnGet), null, new
             {
