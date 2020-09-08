@@ -52,6 +52,9 @@
           "lib/netstandard2.0/MassTransit.dll": {}
         }
       },
+      "MassTransit.Analyzers/7.0.3": {
+        "type": "package"
+      },
       "MassTransit.AspNetCore/7.0.3": {
         "type": "package",
         "dependencies": {
@@ -114,10 +117,22 @@
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/3.1.5": {
+      "Microsoft.Extensions.Configuration/3.1.7": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.5"
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.7"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.7"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -219,7 +234,7 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.5": {
+      "Microsoft.Extensions.Primitives/3.1.7": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
@@ -253,6 +268,13 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.8": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
       },
       "Microsoft.Win32.Primitives/4.3.0": {
@@ -346,7 +368,7 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "RabbitMQ.Client/6.1.0": {
+      "RabbitMQ.Client/6.2.1": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.4",
@@ -1556,6 +1578,47 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "LMSA.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LMSA.Shared.Consumers": "1.0.0",
+          "LMSA.Shared.Contracts": "1.0.0",
+          "Microsoft.Extensions.Configuration": "3.1.7",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/LMSA.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LMSA.Shared.dll": {}
+        }
+      },
+      "LMSA.Shared.Consumers/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LMSA.Shared.Contracts": "1.0.0",
+          "MassTransit": "7.0.3",
+          "MassTransit.Analyzers": "7.0.3"
+        },
+        "compile": {
+          "bin/placeholder/LMSA.Shared.Consumers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LMSA.Shared.Consumers.dll": {}
+        }
+      },
+      "LMSA.Shared.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LMSA.Shared.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LMSA.Shared.Contracts.dll": {}
+        }
       }
     }
   },
@@ -1598,6 +1661,22 @@
         "masstransit.7.0.3.nupkg.sha512",
         "masstransit.nuspec",
         "mt-logo-small.png"
+      ]
+    },
+    "MassTransit.Analyzers/7.0.3": {
+      "sha512": "FoptXdtUr7MU5atj6a1JCLfH75iUw4eXI4+qUxqeDU+qA5vtLbpVI4Up+IRmXPS+i94iEdRXBeWY1PmE2peb+Q==",
+      "type": "package",
+      "path": "masstransit.analyzers/7.0.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/MassTransit.Analyzers.dll",
+        "masstransit.analyzers.7.0.3.nupkg.sha512",
+        "masstransit.analyzers.nuspec",
+        "mt-logo-small.png",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "MassTransit.AspNetCore/7.0.3": {
@@ -1694,10 +1773,26 @@
         "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/3.1.5": {
-      "sha512": "VBcAk6s9izZr04WCzNqOh1Sxz2RbVSh0G79MfpHSDv16cUJtSEYEHody9ZnF71LBEktzdu6cvDFBOFMh43q0iA==",
+    "Microsoft.Extensions.Configuration/3.1.7": {
+      "sha512": "JCVsQYNZNGeLXWMw6tkCZ8Wa2IQKF9AiLKeq9Ff2XvGJTMzhYEHAzF/FvHdeBBhPiOf+Kl1t6mdcHL93kUz6MA==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/3.1.5",
+      "path": "microsoft.extensions.configuration/3.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.3.1.7.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.7": {
+      "sha512": "WJEbrrIgly95D9rM8Gwr4w8sbYla6/iOcCZ0UE7+Qg/Q8NnQJwAJ60Lq1A26zbNE8Fm1fkbGU90LDl8e+BoRSQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1706,7 +1801,7 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.3.1.5.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.3.1.7.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec"
       ]
     },
@@ -1838,10 +1933,10 @@
         "microsoft.extensions.options.nuspec"
       ]
     },
-    "Microsoft.Extensions.Primitives/3.1.5": {
-      "sha512": "6bLdjSAQix82oP2tsuX9MM2yjgUFFOkSZYyRSKoUULilw2cg0Y0H+dnugwYlfj8Jd7yjd/+QSdNBqEyYhTYv0w==",
+    "Microsoft.Extensions.Primitives/3.1.7": {
+      "sha512": "sa17s3vDAXTuIVGxuJcK713i0B0iaUoiwY4Sl2SLHhMqM8snznn0YVGiZAVkoKEUFWjvIg1Z/JNmAicBamI4mg==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/3.1.5",
+      "path": "microsoft.extensions.primitives/3.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1850,7 +1945,7 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.3.1.5.nupkg.sha512",
+        "microsoft.extensions.primitives.3.1.7.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec"
       ]
     },
@@ -1899,6 +1994,70 @@
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
         "microsoft.openapi.1.1.4.nupkg.sha512",
         "microsoft.openapi.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.8": {
+      "sha512": "LXlwvlXetgFg2sqsLCzi+Kd+nV78VrRzy9u6nKU05yx9tcsF9BcLqL/+vtj01Z7RPhp0U8D4Px/bHbyMR9Ddjg==",
+      "type": "package",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.10.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.md",
+        "ThirdPartyNotices.txt",
+        "build/Container.props",
+        "build/Container.targets",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets",
+        "build/ToolsTarget.props",
+        "build/ToolsTarget.targets",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Tasks.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/utils/KillProcess.exe",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
     },
     "Microsoft.Win32.Primitives/4.3.0": {
@@ -2010,10 +2169,10 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "RabbitMQ.Client/6.1.0": {
-      "sha512": "XtiIVPRpcR82AWoe64Hh9gDHqBtheFuL/88YubNKkCpNcctkWFQjMlz3zTyf2lGvZouxCXarDm0nYhGBMbt58Q==",
+    "RabbitMQ.Client/6.2.1": {
+      "sha512": "kdcin0uz1b9xQPvlLOoa8Y2zQsfu7nRuTrcX02dCLVzwGVlsPp9AFgu1L3kRh4wSFEOGE03OVqpWKxaDlhuowQ==",
       "type": "package",
-      "path": "rabbitmq.client/6.1.0",
+      "path": "rabbitmq.client/6.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2025,7 +2184,7 @@
         "lib/netstandard2.0/RabbitMQ.Client.dll",
         "lib/netstandard2.0/RabbitMQ.Client.pdb",
         "lib/netstandard2.0/RabbitMQ.Client.xml",
-        "rabbitmq.client.6.1.0.nupkg.sha512",
+        "rabbitmq.client.6.2.1.nupkg.sha512",
         "rabbitmq.client.nuspec"
       ]
     },
@@ -5425,13 +5584,35 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "LMSA.Shared/1.0.0": {
+      "type": "project",
+      "path": "../LMSA.Shared/LMSA.Shared.csproj",
+      "msbuildProject": "../LMSA.Shared/LMSA.Shared.csproj"
+    },
+    "LMSA.Shared.Consumers/1.0.0": {
+      "type": "project",
+      "path": "../LMSA.Shared.Consumers/LMSA.Shared.Consumers.csproj",
+      "msbuildProject": "../LMSA.Shared.Consumers/LMSA.Shared.Consumers.csproj"
+    },
+    "LMSA.Shared.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../LMSA.Shared.Contracts/LMSA.Shared.Contracts.csproj",
+      "msbuildProject": "../LMSA.Shared.Contracts/LMSA.Shared.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "LMSA.Shared >= 1.0.0",
       "MassTransit >= 7.0.3",
+      "MassTransit.Analyzers >= 7.0.3",
       "MassTransit.AspNetCore >= 7.0.3",
       "MassTransit.RabbitMQ >= 7.0.3",
+<<<<<<< HEAD
+=======
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.8",
+      "RabbitMQ.Client >= 6.2.1",
+>>>>>>> 6a4aeb4141db313b535f9e456cb6c2594b71da66
       "Swashbuckle.AspNetCore >= 5.5.1"
     ]
   },
@@ -5458,7 +5639,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\monos\\Documents\\Projects\\Repositories\\.NET Core\\LMSA\\LMSA.Shared\\LMSA.Shared.csproj": {
+              "projectPath": "C:\\Users\\monos\\Documents\\Projects\\Repositories\\.NET Core\\LMSA\\LMSA.Shared\\LMSA.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5474,6 +5659,10 @@
             "target": "Package",
             "version": "[7.0.3, )"
           },
+          "MassTransit.Analyzers": {
+            "target": "Package",
+            "version": "[7.0.3, )"
+          },
           "MassTransit.AspNetCore": {
             "target": "Package",
             "version": "[7.0.3, )"
@@ -5481,6 +5670,14 @@
           "MassTransit.RabbitMQ": {
             "target": "Package",
             "version": "[7.0.3, )"
+          },
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "target": "Package",
+            "version": "[1.10.8, )"
+          },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.2.1, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MassTransit;
+using LMSA.Shared.Consumer;
+using LMSA.Shared.Contracts;
 
 namespace LMSA.Gateway
 {
@@ -26,11 +28,21 @@ namespace LMSA.Gateway
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddMassTransit(opts => {
-                opts.UsingRabbitMq((context, cfg) => {
-                    cfg.Host("localhost", "/", h => {});
+
+            services.AddMassTransit(x =>
+            {
+                x.AddConsumer<SubmitProjectConsumer>();
+
+                x.UsingRabbitMq((context, cfg) =>
+                {
+                    cfg.ReceiveEndpoint("event-listener", e =>
+                    {
+                        e.ConfigureConsumer<SubmitProjectConsumer>(context);
+                    });
                 });
             });
+
+            services.AddMassTransitHostedService();
 
             services.AddSwaggerGen();
         }

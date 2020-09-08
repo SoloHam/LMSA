@@ -52,6 +52,9 @@
           "lib/netstandard2.0/MassTransit.dll": {}
         }
       },
+      "MassTransit.Analyzers/7.0.3": {
+        "type": "package"
+      },
       "MassTransit.AspNetCore/7.0.3": {
         "type": "package",
         "dependencies": {
@@ -531,6 +534,13 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.8": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
+        }
+      },
       "Microsoft.Win32.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -645,7 +655,7 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "RabbitMQ.Client/6.1.0": {
+      "RabbitMQ.Client/6.2.1": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.4",
@@ -2313,6 +2323,47 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "LMSA.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LMSA.Shared.Consumers": "1.0.0",
+          "LMSA.Shared.Contracts": "1.0.0",
+          "Microsoft.Extensions.Configuration": "3.1.7",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/LMSA.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LMSA.Shared.dll": {}
+        }
+      },
+      "LMSA.Shared.Consumers/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LMSA.Shared.Contracts": "1.0.0",
+          "MassTransit": "7.0.3",
+          "MassTransit.Analyzers": "7.0.3"
+        },
+        "compile": {
+          "bin/placeholder/LMSA.Shared.Consumers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LMSA.Shared.Consumers.dll": {}
+        }
+      },
+      "LMSA.Shared.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LMSA.Shared.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LMSA.Shared.Contracts.dll": {}
+        }
       }
     }
   },
@@ -2355,6 +2406,22 @@
         "masstransit.7.0.3.nupkg.sha512",
         "masstransit.nuspec",
         "mt-logo-small.png"
+      ]
+    },
+    "MassTransit.Analyzers/7.0.3": {
+      "sha512": "FoptXdtUr7MU5atj6a1JCLfH75iUw4eXI4+qUxqeDU+qA5vtLbpVI4Up+IRmXPS+i94iEdRXBeWY1PmE2peb+Q==",
+      "type": "package",
+      "path": "masstransit.analyzers/7.0.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/MassTransit.Analyzers.dll",
+        "masstransit.analyzers.7.0.3.nupkg.sha512",
+        "masstransit.analyzers.nuspec",
+        "mt-logo-small.png",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "MassTransit.AspNetCore/7.0.3": {
@@ -3117,6 +3184,70 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.8": {
+      "sha512": "LXlwvlXetgFg2sqsLCzi+Kd+nV78VrRzy9u6nKU05yx9tcsF9BcLqL/+vtj01Z7RPhp0U8D4Px/bHbyMR9Ddjg==",
+      "type": "package",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.10.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.md",
+        "ThirdPartyNotices.txt",
+        "build/Container.props",
+        "build/Container.targets",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets",
+        "build/ToolsTarget.props",
+        "build/ToolsTarget.targets",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Tasks.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/utils/KillProcess.exe",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
+      ]
+    },
     "Microsoft.Win32.Primitives/4.3.0": {
       "sha512": "9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
       "type": "package",
@@ -3266,10 +3397,10 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "RabbitMQ.Client/6.1.0": {
-      "sha512": "XtiIVPRpcR82AWoe64Hh9gDHqBtheFuL/88YubNKkCpNcctkWFQjMlz3zTyf2lGvZouxCXarDm0nYhGBMbt58Q==",
+    "RabbitMQ.Client/6.2.1": {
+      "sha512": "kdcin0uz1b9xQPvlLOoa8Y2zQsfu7nRuTrcX02dCLVzwGVlsPp9AFgu1L3kRh4wSFEOGE03OVqpWKxaDlhuowQ==",
       "type": "package",
-      "path": "rabbitmq.client/6.1.0",
+      "path": "rabbitmq.client/6.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3281,7 +3412,7 @@
         "lib/netstandard2.0/RabbitMQ.Client.dll",
         "lib/netstandard2.0/RabbitMQ.Client.pdb",
         "lib/netstandard2.0/RabbitMQ.Client.xml",
-        "rabbitmq.client.6.1.0.nupkg.sha512",
+        "rabbitmq.client.6.2.1.nupkg.sha512",
         "rabbitmq.client.nuspec"
       ]
     },
@@ -7779,16 +7910,34 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "LMSA.Shared/1.0.0": {
+      "type": "project",
+      "path": "../LMSA.Shared/LMSA.Shared.csproj",
+      "msbuildProject": "../LMSA.Shared/LMSA.Shared.csproj"
+    },
+    "LMSA.Shared.Consumers/1.0.0": {
+      "type": "project",
+      "path": "../LMSA.Shared.Consumers/LMSA.Shared.Consumers.csproj",
+      "msbuildProject": "../LMSA.Shared.Consumers/LMSA.Shared.Consumers.csproj"
+    },
+    "LMSA.Shared.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../LMSA.Shared.Contracts/LMSA.Shared.Contracts.csproj",
+      "msbuildProject": "../LMSA.Shared.Contracts/LMSA.Shared.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "LMSA.Shared >= 1.0.0",
       "MassTransit >= 7.0.3",
       "MassTransit.AspNetCore >= 7.0.3",
       "MassTransit.RabbitMQ >= 7.0.3",
       "Microsoft.EntityFrameworkCore >= 3.1.7",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.7",
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.8",
+      "RabbitMQ.Client >= 6.2.1",
       "Swashbuckle.AspNetCore >= 5.5.1"
     ]
   },
@@ -7815,7 +7964,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\monos\\Documents\\Projects\\Repositories\\.NET Core\\LMSA\\LMSA.Shared\\LMSA.Shared.csproj": {
+              "projectPath": "C:\\Users\\monos\\Documents\\Projects\\Repositories\\.NET Core\\LMSA\\LMSA.Shared\\LMSA.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -7852,6 +8005,14 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[3.1.7, )"
+          },
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "target": "Package",
+            "version": "[1.10.8, )"
+          },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.2.1, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
